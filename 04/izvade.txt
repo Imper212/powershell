@@ -1,0 +1,44 @@
+Serviss: edgeupdate
+Start-Service : Service 'Microsoft Edge Update Service (edgeupdate) (edgeupdate)' cannot be started due to the followin
+g error: Cannot open edgeupdate service on computer '.'.
+At line:9 char:9
++         Start-Service -Name $service.Name
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (System.ServiceProcess.ServiceController:ServiceController) [Start-Service],
+   ServiceCommandException
+    + FullyQualifiedErrorId : CouldNotStartService,Microsoft.PowerShell.Commands.StartServiceCommand
+
+Serviss: GoogleUpdaterInternalService132.0.6806.0
+Start-Service : Service 'Google Updater Internal Service (GoogleUpdaterInternalService132.0.6806.0) (GoogleUpdaterInter
+nalService132.0.6806.0)' cannot be started due to the following error: Cannot open GoogleUpdaterInternalService132.0.68
+06.0 service on computer '.'.
+At line:9 char:9
++         Start-Service -Name $service.Name
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (System.ServiceProcess.ServiceController:ServiceController) [Start-Service],
+   ServiceCommandException
+    + FullyQualifiedErrorId : CouldNotStartService,Microsoft.PowerShell.Commands.StartServiceCommand
+
+Serviss: GoogleUpdaterService132.0.6806.0
+Start-Service : Service 'Google Updater Service (GoogleUpdaterService132.0.6806.0) (GoogleUpdaterService132.0.6806.0)'
+cannot be started due to the following error: Cannot open GoogleUpdaterService132.0.6806.0 service on computer '.'.
+At line:9 char:9
++         Start-Service -Name $service.Name
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (System.ServiceProcess.ServiceController:ServiceController) [Start-Service],
+   ServiceCommandException
+    + FullyQualifiedErrorId : CouldNotStartService,Microsoft.PowerShell.Commands.StartServiceCommand
+
+Serviss: MapsBroker
+Serviss: sppsvc
+Serviss: stisvc
+Start-Service : Service 'Windows Image Acquisition (WIA) (stisvc)' cannot be started due to the following error: Cannot
+ open stisvc service on computer '.'.
+At line:9 char:9
++         Start-Service -Name $service.Name
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (System.ServiceProcess.ServiceController:ServiceController) [Start-Service],
+   ServiceCommandException
+    + FullyQualifiedErrorId : CouldNotStartService,Microsoft.PowerShell.Commands.StartServiceCommand
+
+Atrasto servisu skaits: 6
