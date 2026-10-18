@@ -1,0 +1,6 @@
+Datora nosaukums: DESKTOP-IVSE9K2
+Operētājsistēma: Microsoft Windows 10 Pro
+Būvējuma numurs: 19045
+PowerShell versija: 5.1.19041.6456
+Datums un laiks: 10/18/2026 20:16:59
+Procesu skaits: 204
