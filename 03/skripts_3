@@ -1,0 +1,20 @@
+$running = 0
+$stopped = 0
+
+$services = Get-Service
+
+foreach ($service in $services) {
+    if ($service.Status -eq "Running") {
+        $running = $running + 1
+    }
+    elseif ($service.Status -eq "Stopped") {
+        $stopped = $stopped + 1
+    }
+}
+
+$total = $running + $stopped
+
+Write-Output "Darbojošies servisi: $running"
+Write-Output "Aptureti servisi: $stopped"
+Write-Output "Summa: $total"
+Write-Output "Visi servisi: $($services.Count)"
