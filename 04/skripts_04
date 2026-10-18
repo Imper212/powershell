@@ -1,0 +1,20 @@
+# Atskaites ID: RVT-4417
+
+$services = Get-CimInstance -ClassName Win32_Service
+
+$count = 0
+
+foreach ($service in $services) {
+    if ($service.StartMode -eq "Auto" -and $service.State -eq "Stopped") {
+        $count = $count + 1
+        Write-Output "Serviss: $($service.Name)"
+        Start-Service -Name $service.Name -WhatIf #Start-Service -Name $service.Name
+    }
+}
+
+if ($count -eq 0) {
+    Write-Output "Atrasti servisi: 0"
+}
+else {
+    Write-Output "Atrasto servisu skaits: $count"
+}
