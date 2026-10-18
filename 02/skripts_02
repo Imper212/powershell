@@ -1,0 +1,13 @@
+$processes = Get-Process |
+    Sort-Object -Property WorkingSet64 -Descending |
+    Select-Object -First 10
+
+$processes = $processes | Sort-Object -Property WorkingSet64
+
+foreach ($process in $processes) {
+    $memory = [math]::Round($process.WorkingSet64 / 1MB, 1)
+
+    Write-Output "Nosaukums: $($process.ProcessName)"
+    Write-Output "ID: $($process.Id)"
+    Write-Output "Atmina MB: $memory"
+}
