@@ -1,0 +1,15 @@
+Serviss: edgeupdate
+What if: Performing the operation "Start-Service" on target "Microsoft Edge Update Service (edgeupdate) (edgeupdate)".
+Serviss: GoogleUpdaterInternalService132.0.6806.0
+What if: Performing the operation "Start-Service" on target "Google Updater Internal Service (GoogleUpdaterInternalService132.0.6806.0) (GoogleUpdaterInternalService132.0.6806.0)".
+Serviss: GoogleUpdaterService132.0.6806.0
+What if: Performing the operation "Start-Service" on target "Google Updater Service (GoogleUpdaterService132.0.6806.0) (GoogleUpdaterService132.0.6806.0)".
+Serviss: gpsvc
+What if: Performing the operation "Start-Service" on target "Group Policy Client (gpsvc)".
+Serviss: MapsBroker
+What if: Performing the operation "Start-Service" on target "Downloaded Maps Manager (MapsBroker)".
+Serviss: sppsvc
+What if: Performing the operation "Start-Service" on target "Software Protection (sppsvc)".
+Serviss: stisvc
+What if: Performing the operation "Start-Service" on target "Windows Image Acquisition (WIA) (stisvc)".
+Atrasto servisu skaits: 7
