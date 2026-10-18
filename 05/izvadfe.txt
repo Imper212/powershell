@@ -1,0 +1,3 @@
+Kludu skaits pedejas 48 stundas: 6
+Biezakais avots: VBoxNetLwf
+Avota ierakstu skaits: 5
