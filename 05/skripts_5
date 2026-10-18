@@ -1,0 +1,24 @@
+$startTime = (Get-Date).AddHours(-48)
+
+$errors = @(
+    Get-WinEvent -FilterHashtable @{
+        LogName = "System"
+        Level = 2
+        StartTime = $startTime
+    } -ErrorAction SilentlyContinue
+)
+
+Write-Output "Kludu skaits pedejas 48 stundas: $($errors.Count)"
+
+if ($errors.Count -gt 0) {
+    $sources = $errors | Group-Object -Property ProviderName
+    $sources = $sources | Sort-Object -Property Count -Descending
+    $mostCommon = $sources | Select-Object -First 1
+
+    Write-Output "Biezakais avots: $($mostCommon.Name)"
+    Write-Output "Avota ierakstu skaits: $($mostCommon.Count)"
+}
+else {
+    Write-Output "Kludu avots: nav kludu ierakstu"
+    Write-Output "Avota ierakstu skaits: 0"
+}
