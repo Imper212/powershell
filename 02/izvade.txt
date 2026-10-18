@@ -1,1 +1,30 @@
-
+Nosaukums: Discord
+ID: 8424
+Atmina MB: 387
+Nosaukums: MsMpEng
+ID: 4252
+Atmina MB: 406.6
+Nosaukums: steamwebhelper
+ID: 19392
+Atmina MB: 431.4
+Nosaukums: opera
+ID: 8316
+Atmina MB: 478.1
+Nosaukums: opera
+ID: 18368
+Atmina MB: 486.2
+Nosaukums: opera
+ID: 7284
+Atmina MB: 532.8
+Nosaukums: opera
+ID: 5396
+Atmina MB: 543.6
+Nosaukums: opera
+ID: 13088
+Atmina MB: 595.5
+Nosaukums: opera
+ID: 14532
+Atmina MB: 733.9
+Nosaukums: opera
+ID: 15784
+Atmina MB: 811.8
